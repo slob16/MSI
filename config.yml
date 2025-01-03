@@ -2,7 +2,7 @@
 title: "Media Stacks International"  # The title of your site, shown in search results
 description: "A brief description of your website for SEO purposes."
 url: "https://mediastacks.co.uk"  # Your site's URL (replace with your actual URL)
-baseurl: "https://slob16.github.io/msilive/"  # Leave empty if your site is hosted at the root level
+baseurl: ""  # Leave empty if your site is hosted at the root level
 
 # SEO Settings
 seo:
@@ -16,22 +16,7 @@ permalink: /:title  # Clean URLs, without .html (e.g., /about/ instead of /about
 markdown: kramdown  # The Markdown processor used by Jekyll
 
 # Theme (can be a Jekyll theme or a custom theme)
-theme: minima  # Jekyll's default theme, change to your own theme if desired
-
-# Plugins (Add plugins for SEO, Sitemap, etc.)
-plugins:
-  - jekyll-seo-tag  # Automatically generates SEO-related meta tags
-  - jekyll-sitemap  # Generates a sitemap.xml for search engines
-
-# SEO Plugin Configuration (for jekyll-seo-tag)
-defaults:
-  - scope:
-      path: ""
-    values:
-      seo:
-        title: "Your Site Title"  # Set a default title for pages that don't specify one
-        description: "Default description of your site"
-        image: "/assets/images/og-image.jpg"  # Default image for social media previews
+theme: css/style.css  # Jekyll's default theme, change to your own theme if desired
 
 # Exclude Files from the Site
 exclude:
