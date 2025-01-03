@@ -10,7 +10,7 @@ seo:
   og_image: "/images/logo.png"  # Open Graph image for social sharing
 
 # URL Settings
-permalink: /:title  # Clean URLs, without .html (e.g., /about/ instead of /about.html)
+permalink: /:pretty  # Clean URLs, without .html (e.g., /about/ instead of /about.html)
 
 # Markdown Processor
 markdown: kramdown  # The Markdown processor used by Jekyll
